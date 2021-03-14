@@ -25,7 +25,7 @@ module MarkdownSample
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.1
 
-    config.autoload_paths << Rails.root.join("lib/autoroads")
+    config.autoload_paths << Rails.root.join("lib/autoloads")
 
     config.generators.system_tests = nil
   end
